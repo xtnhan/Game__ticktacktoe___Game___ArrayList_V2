@@ -17,6 +17,8 @@ void setup () {
   size (1000, 1000);
   //background(255, 255, 255);
 
+//new update
+
   for (float y = 0; y <= height; y+=size) {
     for (float x = 0; x <= width; x+= size) {
       grids.add (new Grid (x, y, size));
